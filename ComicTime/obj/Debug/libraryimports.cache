@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <ManifestDocuments />
+  <NativeLibraries />
+  <Jars>
+    <Jar>obj\Debug\__library_projects__\GlideAssembly\library_project_imports\glide-3.7.0.jar</Jar>
+  </Jars>
+</Paths>
