@@ -13,10 +13,18 @@ using ComicTime.data;
 
 namespace ComicTime.Characters
 {
-    class CharactersPresenterImpl : CharactersContract.Presenter    {
+    public class CharactersPresenterImpl : CharactersContract.Presenter    {
 
-        public CharactersPresenterImpl()
+        private data.Source.CharacterDataSource repository;
+        private CharactersContract.IView<CharactersContract.Presenter> view;
+
+        public CharactersPresenterImpl(data.Source.CharacterDataSource repository, 
+                                       CharactersContract.IView<Characters.CharactersContract.Presenter> view)
         {
+            this.repository = repository;
+            this.view = view;
+
+            view.setPresenter(this);
 
         }
         public void result(int requestCode, int resultCode)
@@ -26,8 +34,8 @@ namespace ComicTime.Characters
 
         public void start()
         {
-
-
+            loadCharacters(false);
+            loadCharacters(true);
         }
 
         public void openCharacterDetails(Character requestedCharacter)
@@ -45,10 +53,11 @@ namespace ComicTime.Characters
 
         }
 
-        public void loadCharacters()
+        public void loadCharacters(bool forceUpdate)
         {
+            Console.WriteLine("getting da characters");
+            //repository.refreshCharacters();
 
         }
-
     }
 }

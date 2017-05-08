@@ -2,25 +2,25 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\Chase\documents\visual studio 2017\Projects\ComicTime\ComicTime\obj\Debug\__library_projects__\Cheeseknife\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Chase\documents\visual studio 2017\Projects\ComicTime\ComicTime\obj\Debug\__library_projects__\System.Reactive.Core\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Chase\documents\visual studio 2017\Projects\ComicTime\ComicTime\obj\Debug\__library_projects__\System.Reactive.Interfaces\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Chase\documents\visual studio 2017\Projects\ComicTime\ComicTime\obj\Debug\__library_projects__\System.Reactive.Linq\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Chase\documents\visual studio 2017\Projects\ComicTime\ComicTime\obj\Debug\__library_projects__\System.Reactive.PlatformServices\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/chaseland/Projects/ComicTime/ComicTime/obj/Debug/__library_projects__/Cheeseknife/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/chaseland/Projects/ComicTime/ComicTime/obj/Debug/__library_projects__/System.Reactive.Core/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/chaseland/Projects/ComicTime/ComicTime/obj/Debug/__library_projects__/System.Reactive.Interfaces/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/chaseland/Projects/ComicTime/ComicTime/obj/Debug/__library_projects__/System.Reactive.Linq/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/chaseland/Projects/ComicTime/ComicTime/obj/Debug/__library_projects__/System.Reactive.PlatformServices/library_project_imports/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Cheeseknife\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\System.Reactive.Core\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\System.Reactive.Interfaces\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\System.Reactive.Linq\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\System.Reactive.PlatformServices\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Cheeseknife/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/System.Reactive.Core/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/System.Reactive.Interfaces/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/System.Reactive.Linq/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/System.Reactive.PlatformServices/library_project_imports/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\Chase\documents\visual studio 2017\Projects\ComicTime\ComicTime\obj\Debug\__library_projects__\Cheeseknife.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Chase\documents\visual studio 2017\Projects\ComicTime\ComicTime\obj\Debug\__library_projects__\System.Reactive.Core.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Chase\documents\visual studio 2017\Projects\ComicTime\ComicTime\obj\Debug\__library_projects__\System.Reactive.Interfaces.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Chase\documents\visual studio 2017\Projects\ComicTime\ComicTime\obj\Debug\__library_projects__\System.Reactive.Linq.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Chase\documents\visual studio 2017\Projects\ComicTime\ComicTime\obj\Debug\__library_projects__\System.Reactive.PlatformServices.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/chaseland/Projects/ComicTime/ComicTime/obj/Debug/__library_projects__/Cheeseknife.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/chaseland/Projects/ComicTime/ComicTime/obj/Debug/__library_projects__/System.Reactive.Core.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/chaseland/Projects/ComicTime/ComicTime/obj/Debug/__library_projects__/System.Reactive.Interfaces.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/chaseland/Projects/ComicTime/ComicTime/obj/Debug/__library_projects__/System.Reactive.Linq.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/chaseland/Projects/ComicTime/ComicTime/obj/Debug/__library_projects__/System.Reactive.PlatformServices.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

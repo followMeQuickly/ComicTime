@@ -12,7 +12,17 @@ using Android.Widget;
 
 namespace ComicTime.data.Source.remote
 {
-    class CharacterRemoteRepo
+    public class CharacterRemoteRepo : CharacterDataSource
     {
+        public void getCharacters(Func<List<Character>> getCharactersCallBack)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void refreshCharacters()
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }

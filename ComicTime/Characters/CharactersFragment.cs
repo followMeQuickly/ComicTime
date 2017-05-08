@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,14 @@ namespace ComicTime.Characters
 {
     public class CharactersFragment : Fragment, CharactersContract.IView<CharactersContract.Presenter>
     {
+
+        private CharactersContract.Presenter presenter;
+
+        public bool isActive()
+        {
+            throw new NotImplementedException();
+        }
+
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -23,37 +32,39 @@ namespace ComicTime.Characters
             // Create your fragment here
         }
 
+        public override void OnResume()
+        {
+            base.OnResume();
+            presenter.start();
+        }
+
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
+            var root = inflater.Inflate(Resource.Layout.CharactersFragment, container, false);
+            var text = root.FindViewById(Resource.Id.textView);
 
-            return base.OnCreateView(inflater, container, savedInstanceState);
+
+            return root;
         }
 
-        
-
-        void CharactersContract.IView<CharactersContract.Presenter>.setLoadIndicator(bool active)
-        {
-            throw new NotImplementedException();
-        }
-
-        void CharactersContract.IView<CharactersContract.Presenter>.showNoCharacters()
-        {
-            throw new NotImplementedException();
-        }
-
-        void CharactersContract.IView<CharactersContract.Presenter>.showCharacters(List<Character> characters)
-        {
-            throw new NotImplementedException();
-        }
-
-        bool CharactersContract.IView<CharactersContract.Presenter>.isActive()
+        public void setLoadIndicator(bool active)
         {
             throw new NotImplementedException();
         }
 
         public void setPresenter(CharactersContract.Presenter presenter)
+        {
+            this.presenter = presenter;
+        }
+
+        public void showCharacters(List<Character> characters)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void showNoCharacters()
         {
             throw new NotImplementedException();
         }

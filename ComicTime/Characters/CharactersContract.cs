@@ -43,7 +43,7 @@ namespace ComicTime.Characters
 
             void setFiltering();
 
-            void loadCharacters();
+            void loadCharacters(Boolean forceUpdate);
 
         }
     }

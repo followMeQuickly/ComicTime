@@ -21,7 +21,8 @@ namespace ComicTime.data.Source
 
         public void refreshCharacters()
         {
-            throw new NotImplementedException();
+
+            throw new NotImplementedException("attempted to load characters");
         }
     }
 }
