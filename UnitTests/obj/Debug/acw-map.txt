@@ -10,6 +10,22 @@ ComicTime.Characters.CharactersFragment, ComicTime;md57b72fc1c727ec81b29c7e88a94
 ComicTime.Characters.CharactersFragment, ComicTime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57b72fc1c727ec81b29c7e88a9466d1c8.CharactersFragment
 ComicTime.Characters.CharactersFragment;md57b72fc1c727ec81b29c7e88a9466d1c8.CharactersFragment
 comictime.characters.CharactersFragment;md57b72fc1c727ec81b29c7e88a9466d1c8.CharactersFragment
+ComicTime.Characters.CharacterAdapter, ComicTime;md57b72fc1c727ec81b29c7e88a9466d1c8.CharacterAdapter
+ComicTime.Characters.CharacterAdapter, ComicTime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57b72fc1c727ec81b29c7e88a9466d1c8.CharacterAdapter
+ComicTime.Characters.CharacterAdapter;md57b72fc1c727ec81b29c7e88a9466d1c8.CharacterAdapter
+comictime.characters.CharacterAdapter;md57b72fc1c727ec81b29c7e88a9466d1c8.CharacterAdapter
+Square.OkHttp.Call/ActionCallback, Square.OkHttp;com.squareup.okhttp.Call_ActionCallback
+Square.OkHttp.Call+ActionCallback, Square.OkHttp, Version=2.7.5.0, Culture=neutral, PublicKeyToken=null;com.squareup.okhttp.Call_ActionCallback
+Square.OkHttp.Call.ActionCallback;com.squareup.okhttp.Call_ActionCallback
+com.squareup.okhttp.Call_ActionCallback;com.squareup.okhttp.Call_ActionCallback
+Square.Picasso.RequestCreator/ActionCallback, Square.Picasso;com.squareup.picasso.RequestCreator_ActionCallback
+Square.Picasso.RequestCreator+ActionCallback, Square.Picasso, Version=2.5.2.0, Culture=neutral, PublicKeyToken=null;com.squareup.picasso.RequestCreator_ActionCallback
+Square.Picasso.RequestCreator.ActionCallback;com.squareup.picasso.RequestCreator_ActionCallback
+com.squareup.picasso.RequestCreator_ActionCallback;com.squareup.picasso.RequestCreator_ActionCallback
+Square.Picasso.Picasso/IListenerImplementor, Square.Picasso;mono.com.squareup.picasso.Picasso_ListenerImplementor
+Square.Picasso.Picasso+IListenerImplementor, Square.Picasso, Version=2.5.2.0, Culture=neutral, PublicKeyToken=null;mono.com.squareup.picasso.Picasso_ListenerImplementor
+Square.Picasso.Picasso.IListenerImplementor;mono.com.squareup.picasso.Picasso_ListenerImplementor
+mono.com.squareup.picasso.Picasso_ListenerImplementor;mono.com.squareup.picasso.Picasso_ListenerImplementor
 Xamarin.Android.NUnitLite.TestSuiteActivity, Xamarin.Android.NUnitLite;md5e0d9a58f8ef4c80c20dd923cca887f60.TestSuiteActivity
 Xamarin.Android.NUnitLite.TestSuiteActivity, Xamarin.Android.NUnitLite, Version=1.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065;md5e0d9a58f8ef4c80c20dd923cca887f60.TestSuiteActivity
 Xamarin.Android.NUnitLite.TestSuiteActivity;md5e0d9a58f8ef4c80c20dd923cca887f60.TestSuiteActivity

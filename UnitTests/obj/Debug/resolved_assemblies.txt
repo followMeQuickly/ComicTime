@@ -7,6 +7,12 @@
 /Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/System.Xml.dll
 /Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/Xamarin.Android.NUnitLite.dll
 /Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/mscorlib.dll
+/Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/Square.OkHttp.dll
+/Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/Square.OkIO.dll
+/Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/Newtonsoft.Json.dll
+/Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/System.Runtime.Serialization.dll
+/Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/System.ServiceModel.Internals.dll
+/Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/Square.Picasso.dll
 /Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/System.Runtime.dll
 /Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/System.ComponentModel.Composition.dll
 /Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/System.Threading.dll
@@ -19,6 +25,4 @@
 /Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/System.Runtime.Extensions.dll
 /Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/System.Reflection.Extensions.dll
 /Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/System.Net.Http.dll
-/Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/System.Runtime.Serialization.dll
-/Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/System.ServiceModel.Internals.dll
 /Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/android/assets/Mono.Security.dll

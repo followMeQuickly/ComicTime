@@ -6,6 +6,10 @@ ComicTime.Characters.CharactersFragment, ComicTime;md57b72fc1c727ec81b29c7e88a94
 ComicTime.Characters.CharactersFragment, ComicTime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57b72fc1c727ec81b29c7e88a9466d1c8.CharactersFragment
 ComicTime.Characters.CharactersFragment;md57b72fc1c727ec81b29c7e88a9466d1c8.CharactersFragment
 comictime.characters.CharactersFragment;md57b72fc1c727ec81b29c7e88a9466d1c8.CharactersFragment
+ComicTime.Characters.CharacterAdapter, ComicTime;md57b72fc1c727ec81b29c7e88a9466d1c8.CharacterAdapter
+ComicTime.Characters.CharacterAdapter, ComicTime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md57b72fc1c727ec81b29c7e88a9466d1c8.CharacterAdapter
+ComicTime.Characters.CharacterAdapter;md57b72fc1c727ec81b29c7e88a9466d1c8.CharacterAdapter
+comictime.characters.CharacterAdapter;md57b72fc1c727ec81b29c7e88a9466d1c8.CharacterAdapter
 Com.Bumptech.Glide.Load.Engine.Cache.IMemoryCacheResourceRemovedListenerImplementor, GlideAssembly;mono.com.bumptech.glide.load.engine.cache.MemoryCache_ResourceRemovedListenerImplementor
 Com.Bumptech.Glide.Load.Engine.Cache.IMemoryCacheResourceRemovedListenerImplementor, GlideAssembly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.bumptech.glide.load.engine.cache.MemoryCache_ResourceRemovedListenerImplementor
 Com.Bumptech.Glide.Load.Engine.Cache.IMemoryCacheResourceRemovedListenerImplementor;mono.com.bumptech.glide.load.engine.cache.MemoryCache_ResourceRemovedListenerImplementor
@@ -22,6 +26,18 @@ Com.Bumptech.Glide.Request.IRequestListenerImplementor, GlideAssembly;mono.com.b
 Com.Bumptech.Glide.Request.IRequestListenerImplementor, GlideAssembly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.bumptech.glide.request.RequestListenerImplementor
 Com.Bumptech.Glide.Request.IRequestListenerImplementor;mono.com.bumptech.glide.request.RequestListenerImplementor
 mono.com.bumptech.glide.request.RequestListenerImplementor;mono.com.bumptech.glide.request.RequestListenerImplementor
+Square.OkHttp.Call/ActionCallback, Square.OkHttp;com.squareup.okhttp.Call_ActionCallback
+Square.OkHttp.Call+ActionCallback, Square.OkHttp, Version=2.7.5.0, Culture=neutral, PublicKeyToken=null;com.squareup.okhttp.Call_ActionCallback
+Square.OkHttp.Call.ActionCallback;com.squareup.okhttp.Call_ActionCallback
+com.squareup.okhttp.Call_ActionCallback;com.squareup.okhttp.Call_ActionCallback
+Square.Picasso.RequestCreator/ActionCallback, Square.Picasso;com.squareup.picasso.RequestCreator_ActionCallback
+Square.Picasso.RequestCreator+ActionCallback, Square.Picasso, Version=2.5.2.0, Culture=neutral, PublicKeyToken=null;com.squareup.picasso.RequestCreator_ActionCallback
+Square.Picasso.RequestCreator.ActionCallback;com.squareup.picasso.RequestCreator_ActionCallback
+com.squareup.picasso.RequestCreator_ActionCallback;com.squareup.picasso.RequestCreator_ActionCallback
+Square.Picasso.Picasso/IListenerImplementor, Square.Picasso;mono.com.squareup.picasso.Picasso_ListenerImplementor
+Square.Picasso.Picasso+IListenerImplementor, Square.Picasso, Version=2.5.2.0, Culture=neutral, PublicKeyToken=null;mono.com.squareup.picasso.Picasso_ListenerImplementor
+Square.Picasso.Picasso.IListenerImplementor;mono.com.squareup.picasso.Picasso_ListenerImplementor
+mono.com.squareup.picasso.Picasso_ListenerImplementor;mono.com.squareup.picasso.Picasso_ListenerImplementor
 Android.Support.V4.View.ViewPager/IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager+IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=71f3e3261ac778b5;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager.IOnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor

@@ -14,7 +14,11 @@ namespace ComicTime.data.Source
 {
     class CharacterRepository : CharacterDataSource
     {
-        public void getCharacters(Func<List<Character>> getCharactersCallBack)
+        public CharacterRepository(CharacterDataSource remoteRepo)
+        {
+            
+        }
+        public void getCharacters(Action<List<Character>> characters)
         {
             throw new NotImplementedException();
         }

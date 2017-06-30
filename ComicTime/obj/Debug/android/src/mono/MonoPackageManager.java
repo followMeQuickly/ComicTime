@@ -101,14 +101,16 @@ class MonoPackageManager_Resources {
 		"ComicTime.dll",
 		"Cheeseknife.dll",
 		"GlideAssembly.dll",
+		"Newtonsoft.Json.dll",
+		"Square.OkHttp.dll",
+		"Square.OkIO.dll",
+		"Square.Picasso.dll",
 		"System.Reactive.Core.dll",
 		"System.Reactive.Interfaces.dll",
 		"System.Reactive.Linq.dll",
 		"System.Reactive.PlatformServices.dll",
-		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Android.Support.v7.AppCompat.dll",
-		"Xamarin.Android.Support.Vector.Drawable.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

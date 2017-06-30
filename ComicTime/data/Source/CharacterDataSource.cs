@@ -14,11 +14,16 @@ namespace ComicTime.data.Source
 {
     public interface CharacterDataSource
     {
-        void getCharacters(Func<List<Character>> getCharactersCallBack);
+        void getCharacters(Action<List<Character>> characters);
 
         void refreshCharacters();
 
+    }
 
+    public interface OnCharactersLoadedCallback
+    {
+        void onCharacterLoaded(List<Character> characters);
+        void onDataNotAvailable();
     }
     
     

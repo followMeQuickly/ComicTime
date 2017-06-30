@@ -1,20 +1,47 @@
 ﻿<Properties StartupConfiguration="{39D512E3-A2D0-497B-9B3E-07218A8DA722}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ComicTime/Characters/CharactersFragment.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ComicTime Status">
     <Files>
-      <File FileName="ComicTime/Characters/CharactersFragment.cs" Line="25" Column="13" />
-      <File FileName="ComicTime/Characters/CharactersContract.cs" Line="46" Column="52" />
-      <File FileName="ComicTime/Characters/CharactersPresenterImpl.cs" Line="37" Column="1" />
-      <File FileName="ComicTime/data/Source/remote/CharacterRemoteRepo.cs" Line="19" Column="13" />
-      <File FileName="ComicTime/Characters/CharactersActivity.cs" Line="20" Column="25" />
-      <File FileName="UnitTests/CharactersPresenterTest.cs" Line="25" Column="6" />
-      <File FileName="UnitTests/obj/Debug/android/manifest/AndroidManifest.xml" Line="15" Column="1" />
+      <File FileName="ComicTime/Characters/CharactersFragment.cs" Line="78" Column="12" />
+      <File FileName="ComicTime/Characters/CharactersPresenterImpl.cs" Line="58" Column="1" />
+      <File FileName="ComicTime/Characters/CharactersActivity.cs" Line="21" Column="25" />
+      <File FileName="ComicTime/data/Source/remote/CharacterRemoteRepo.cs" Line="46" Column="57" />
+      <File FileName="ComicTime Status" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ComicTime" expanded="True" selected="True">
+            <Node name="ComicTime" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="data" expanded="True">
+                <Node name="Source" expanded="True">
+                  <Node name="remote" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+                <Node name="values" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ComicTime AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.FA68P0300114" />
+  <MonoDevelop.Ide.ItemProperties.ComicTime AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/chaseland/Projects/ComicTime/ComicTime/Characters/CharactersFragment.cs" relfile="ComicTime/Characters/CharactersFragment.cs" line="46" column="1" />
+      <Breakpoint file="/Users/chaseland/Projects/ComicTime/ComicTime/obj/Debug/android/src/com/squareup/picasso/RequestCreator_ActionCallback.java" relfile="ComicTime/obj/Debug/android/src/com/squareup/picasso/RequestCreator_ActionCallback.java" line="8" column="1" />
+      <Breakpoint file="/Users/chaseland/Projects/ComicTime/ComicTime/Characters/CharactersFragment.cs" relfile="ComicTime/Characters/CharactersFragment.cs" line="87" column="51" />
+      <Breakpoint file="/Users/chaseland/Projects/ComicTime/ComicTime/Characters/CharactersFragment.cs" relfile="ComicTime/Characters/CharactersFragment.cs" line="73" column="1" />
+      <Breakpoint file="/Users/chaseland/Projects/ComicTime/ComicTime/Characters/CharactersPresenterImpl.cs" relfile="ComicTime/Characters/CharactersPresenterImpl.cs" line="58" column="1" />
+      <Breakpoint file="/Users/chaseland/Projects/ComicTime/ComicTime/Characters/CharactersFragment.cs" relfile="ComicTime/Characters/CharactersFragment.cs" line="131" column="1" />
+      <Breakpoint file="/Users/chaseland/Projects/ComicTime/ComicTime/Characters/CharactersFragment.cs" relfile="ComicTime/Characters/CharactersFragment.cs" line="115" column="49" />
+      <Breakpoint file="/Users/chaseland/Projects/ComicTime/ComicTime/Characters/CharactersFragment.cs" relfile="ComicTime/Characters/CharactersFragment.cs" line="99" column="1" />
+      <Breakpoint file="/Users/chaseland/Projects/ComicTime/ComicTime/Characters/CharactersFragment.cs" relfile="ComicTime/Characters/CharactersFragment.cs" line="107" column="41" />
+      <Breakpoint file="/Users/chaseland/Projects/ComicTime/ComicTime/Characters/CharactersFragment.cs" relfile="ComicTime/Characters/CharactersFragment.cs" line="111" column="52" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -100,6 +100,10 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "UnitTests.dll" comes first in this list. */
 		"UnitTests.dll",
 		"ComicTime.dll",
+		"Square.OkHttp.dll",
+		"Square.OkIO.dll",
+		"Newtonsoft.Json.dll",
+		"Square.Picasso.dll",
 		"Xamarin.Android.NUnitLite.dll",
 	};
 	public static final String[] Dependencies = new String[]{

@@ -34,7 +34,7 @@ namespace ComicTime.Characters
 
         public void start()
         {
-            loadCharacters(false);
+            //loadCharacters(false);
             loadCharacters(true);
         }
 
@@ -53,11 +53,38 @@ namespace ComicTime.Characters
 
         }
 
-        public void loadCharacters(bool forceUpdate)
+        void loadCharacters(bool forceUpdate)
         {
             Console.WriteLine("getting da characters");
-            //repository.refreshCharacters();
+            List<Character> characters = new List<Character>();
+            repository.getCharacters(characterss => characters = characterss);
+            ProcessCharacters(characters);
+           
 
         }
+        private void ProcessCharacters(List<Character> characters)
+        {
+
+            List<Character> characterList = new List<Character>();
+            characters.ForEach(character => {
+                characterList.Add(character);
+            });
+
+            view.showCharacters(characterList);
+            
+        }
+
+        void CharactersContract.Presenter.loadCharacters(bool forceUpdate)
+        {
+			//repository.getCharacters((characters) =>
+			//{
+   //             ProcessCharacters(characters);
+			//});
+
+		}
+
+       
+
     }
+
 }

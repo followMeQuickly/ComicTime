@@ -2,6 +2,7 @@
 using Android.Widget;
 using Android.OS;
 
+
 namespace ComicTime
 {
     [Activity(Label = "ComicTime", MainLauncher = true, Icon = "@drawable/icon")]

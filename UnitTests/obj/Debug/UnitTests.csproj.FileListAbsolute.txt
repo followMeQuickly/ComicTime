@@ -3,7 +3,11 @@
 /Users/chaseland/Projects/ComicTime/UnitTests/bin/Debug/UnitTests.UnitTests.apk
 /Users/chaseland/Projects/ComicTime/UnitTests/bin/Debug/UnitTests.UnitTests-Signed.apk
 /Users/chaseland/Projects/ComicTime/UnitTests/bin/Debug/ComicTime.dll
+/Users/chaseland/Projects/ComicTime/UnitTests/bin/Debug/Square.OkHttp.dll
+/Users/chaseland/Projects/ComicTime/UnitTests/bin/Debug/Newtonsoft.Json.dll
+/Users/chaseland/Projects/ComicTime/UnitTests/bin/Debug/Square.Picasso.dll
 /Users/chaseland/Projects/ComicTime/UnitTests/bin/Debug/ComicTime.pdb
+/Users/chaseland/Projects/ComicTime/UnitTests/bin/Debug/Newtonsoft.Json.xml
 /Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/UnitTests.csprojResolveAssemblyReference.cache
 /Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/UnitTests.csproj.CoreCompileInputs.cache
 /Users/chaseland/Projects/ComicTime/UnitTests/obj/Debug/UnitTests.dll

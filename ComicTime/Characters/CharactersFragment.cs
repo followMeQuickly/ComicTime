@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Text;
 
@@ -11,7 +12,10 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using Com.Bumptech.Glide;
 using ComicTime.data;
+using Java.Lang;
+using Square.Picasso;
 
 namespace ComicTime.Characters
 {
@@ -19,7 +23,9 @@ namespace ComicTime.Characters
     {
 
         private CharactersContract.Presenter presenter;
-
+        private CharacterAdapter characterAdapter;
+        private ImageView view;
+        private TextView textView;
         public bool isActive()
         {
             throw new NotImplementedException();
@@ -43,7 +49,15 @@ namespace ComicTime.Characters
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
             var root = inflater.Inflate(Resource.Layout.CharactersFragment, container, false);
-            var text = root.FindViewById(Resource.Id.textView);
+            var thing = root.Id;
+            textView = root.FindViewById<TextView>(Resource.Id.names);            //var grid = root.FindViewById<GridView>(Resource.Id.gridview);
+            //characterAdapter = new CharacterAdapter(root.Context, new List<Character>());
+            //if (characterAdapter != null)
+            //{
+                
+            //}
+            //grid.Adapter = characterAdapter;
+           
 
 
             return root;
@@ -61,12 +75,65 @@ namespace ComicTime.Characters
 
         public void showCharacters(List<Character> characters)
         {
-            throw new NotImplementedException();
+            string names = "";
+            characters.ForEach(item =>
+            {
+                names = item.name + " \n";
+            });
+            textView.SetText(names.ToCharArray(), 0, names.Length);
+
+            //var url = characters[0].resourceURI;
+            //characterAdapter.UpdateList(characters);
+               
         }
 
         public void showNoCharacters()
         {
             throw new NotImplementedException();
+        }
+    }
+
+
+    public class CharacterAdapter: BaseAdapter
+    {
+        private List<Character> characters;
+        private Context context;
+
+        public CharacterAdapter(Context context, List<Character> characters)
+        {
+            this.context = context;
+            this.characters = characters;
+        }
+
+        public override int Count => characters.Count;
+
+        public override void NotifyDataSetChanged()
+        {
+            base.NotifyDataSetChanged();
+        }
+        public override void RegisterDataSetObserver(Android.Database.DataSetObserver observer)
+        {
+            base.RegisterDataSetObserver(observer);
+        }
+        public override View GetView(int position, View convertView, ViewGroup parent)
+        {
+            throw new NotImplementedException();
+        }
+        public override long GetItemId(int position)
+        {
+            return characters.ElementAt(position).id;
+        }
+        public void UpdateList(List<Character> characters)
+        {
+            this.characters = characters;
+            NotifyDataSetChanged();
+        }
+
+       
+
+        public override Java.Lang.Object GetItem(int position)
+        {
+            return (Java.Lang.Object) characters.ElementAt(position);
         }
     }
 }
